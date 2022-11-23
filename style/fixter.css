@@ -41,4 +41,13 @@
   font-family: ProximaNova, sans-serif;
   font-size: clamp(0.5rem, 1vw, 0.86667rem);
 }
-/*# sourceMappingURL=common.css.map */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=fixter.css.map */

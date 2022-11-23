@@ -34,12 +34,16 @@
   font-size: clamp(2rem, 2vw, 2.13333rem);
 }
 
-* {
-  margin: 0%;
-  padding: 0%;
+.TsHeading-05 {
+  line-height: 1.23;
+  font-weight: 700;
+  color: #32382e;
+  font-family: ProximaNova, sans-serif;
+  font-size: clamp(0.5rem, 1vw, 0.86667rem);
 }
 
-html {
-  scroll-behavior: smooth;
+.TsFooter {
+  border-top: 1px solid #dee6f0;
+  padding: 72px;
 }
-/*# sourceMappingURL=ficter.css.map */
+/*# sourceMappingURL=footer.css.map */
