@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'ProximaNova', sans-serif;
+  src: url('/ProximaNovaFont.otf');
+}
+
+//btn color
+$primary-btn-color: #1082ea;
+$primary-btn-border-color: rgb(32, 58, 82);
+
+// text color
+$text-color-primary: rgb(21, 102, 220);
+$text-color-dark: rgb(50, 56, 46);
+$text-dark-primary-color: rgb(32, 58, 82);
+$text-black-haf-color: rgb(74, 90, 109);
+$text-link-color: rgb(16, 130, 234);
+$text-red-color: rgb(255, 88, 88);
+//  bg color
+$bg-white-haf-color: rgb(246, 250, 255);
+// font size
+// heading
+$ts-heading-01: clamp(2rem, 3vw, 2.625rem);
+$ts-heading-02: clamp(1.9rem, 2.5vw, 2.375rem);
+$ts-heading-03: clamp(1.2rem, 2vw, 1.25rem);
+$ts-heading-04: clamp(2rem, 2vw, 2.13333rem);
+// desc
+$ts-desc-01: clamp(1rem, 2vw, 1.125rem);
+$ts-desc-02: clamp(1rem, 2vw, 1.4275rem);
+$ts-desc-03: clamp(9rem, 1vw, 1rem);
+$ts-desc-04: clamp(2rem, 2vw, 2.13333rem);
+
+// font weight
+$ts-font-weight-100: 100;
+$ts-font-weight-200: 200;
+$ts-font-weight-300: 300;
+$ts-font-weight-400: 400;
+$ts-font-weight-500: 500;
+$ts-font-weight-600: 600;
+$ts-font-weight-700: 700;
+// font family
+$ts-font-family: ProximaNova, sans-serif;
+%heading {
+  color: $text-dark-primary-color;
+  word-break: break-word;
+  font-family: $ts-font-family;
+}
+.TsHeading {
+  &-01 {
+    @extend %heading;
+    font-size: $ts-heading-01;
+    line-height: 1.04762;
+    font-weight: $ts-font-weight-600;
+  }
+  &-02 {
+    @extend %heading;
+    font-weight: $ts-font-weight-700;
+    font-size: $ts-heading-02;
+    line-height: 1.05263;
+  }
+  &-03 {
+    @extend %heading;
+    font-size: $ts-heading-03;
+    font-weight: $ts-font-weight-600;
+  }
+  &-04 {
+    line-height: 1.25;
+    font-weight: $ts-font-weight-200;
+    color: $text-color-dark;
+    font-family: $ts-font-family;
+    font-size: $ts-heading-04;
+  }
+}

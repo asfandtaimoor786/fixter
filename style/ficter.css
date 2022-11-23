@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'ProximaNova', sans-serif;
+  src: url("/ProximaNovaFont.otf");
+}
+
+.TsHeading-01, .TsHeading-02, .TsHeading-03 {
+  color: #203a52;
+  word-break: break-word;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsHeading-01 {
+  font-size: clamp(2rem, 3vw, 2.625rem);
+  line-height: 1.04762;
+  font-weight: 600;
+}
+
+.TsHeading-02 {
+  font-weight: 700;
+  font-size: clamp(1.9rem, 2.5vw, 2.375rem);
+  line-height: 1.05263;
+}
+
+.TsHeading-03 {
+  font-size: clamp(1.2rem, 2vw, 1.25rem);
+  font-weight: 600;
+}
+
+.TsHeading-04 {
+  line-height: 1.25;
+  font-weight: 200;
+  color: #32382e;
+  font-family: ProximaNova, sans-serif;
+  font-size: clamp(2rem, 2vw, 2.13333rem);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=ficter.css.map */
