@@ -7,17 +7,18 @@
   color: #203a52;
   word-break: break-word;
   font-family: ProximaNova, sans-serif;
+  color: #203a52;
 }
 
 .TsHeading-01 {
-  font-size: clamp(2rem, 3vw, 2.625rem);
+  font-size: clamp(2.2rem, 3vw, 2.625rem);
   line-height: 1.04762;
   font-weight: 600;
 }
 
 .TsHeading-02 {
   font-weight: 700;
-  font-size: clamp(1.9rem, 2.5vw, 2.375rem);
+  font-size: clamp(2rem, 2.5vw, 2.375rem);
   line-height: 1.05263;
 }
 
@@ -39,6 +40,33 @@
   font-weight: 700;
   color: #32382e;
   font-family: ProximaNova, sans-serif;
-  font-size: clamp(0.5rem, 1vw, 0.86667rem);
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
+}
+
+.TsHeading-06 {
+  font-weight: 600;
+}
+
+.TsDesc-02 {
+  color: #4a5a6d;
+  font-size: clamp(1rem, 2vw, 1.4275rem);
+  font-weight: 400;
+  line-height: 1.21739;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsDesc-03 {
+  color: #4a5a6d;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.77778;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsDesc-04 {
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-family: ProximaNova, sans-serif;
+  color: #4a5a6d;
+  line-height: 1.14;
 }
 /*# sourceMappingURL=common.css.map */

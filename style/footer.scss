@@ -2,4 +2,31 @@
 .TsFooter {
   border-top: 1px solid rgb(222, 230, 240);
   padding: $section-padding;
+  background-color: $bg-white-haf-color;
+  &-container {
+    max-width: 1440px;
+
+    &-nav {
+      .nav-item {
+        margin-bottom: 8px;
+        .nav-link {
+          font-size: 0.933333rem;
+          font-family: $ts-font-family;
+          color: $text-black-haf-color;
+          line-height: 1.14;
+          &:hover {
+            color: #1082ea;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    &-icon .fab {
+      color: rgb(21, 102, 220);
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 100px;
+      border: 3px solid rgba(128, 128, 128, 0.401);
+    }
+  }
 }
