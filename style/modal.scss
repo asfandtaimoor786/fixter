@@ -1,0 +1,69 @@
+@import 'common';
+
+.TsModal {
+  padding: $section-padding;
+  max-width: 1920px;
+  &-cont {
+    //     width: 80%;
+    max-width: 1800px;
+  }
+  &-img {
+    max-width: 450px;
+  }
+  &-cards {
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .card {
+    border: none;
+    padding-block: 50px;
+    text-align: center;
+    p {
+      margin: 0px;
+      color: $text-black-haf-color;
+      font-size: $ts-desc-03;
+      font-weight: $ts-font-weight-400;
+      line-height: 1.77778;
+      font-family: $ts-font-family;
+    }
+    &:hover {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.401);
+      cursor: pointer;
+    }
+  }
+  &-button {
+    .btn {
+      padding: 20px 15px;
+      color: #1082ea;
+      background-color: #1081ea0b;
+
+      .fas {
+        margin-left: 60px;
+      }
+      &:hover {
+        background-color: #1082ea;
+        color: #fff;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .TsModal {
+    padding: 50px;
+    &-cards {
+      width: 100%;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &-button {
+      .btn {
+        display: block;
+      }
+    }
+  }
+}

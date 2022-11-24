@@ -14,8 +14,12 @@ $text-dark-primary-color: rgb(32, 58, 82);
 $text-black-haf-color: rgb(74, 90, 109);
 $text-link-color: rgb(16, 130, 234);
 $text-red-color: rgb(255, 88, 88);
+$text-white-color: #fff;
+
 //  bg color
+$bg-primary-color: rgb(21, 102, 220);
 $bg-white-haf-color: rgb(246, 250, 255);
+$bg-white-color: #fff;
 // font size
 // heading
 $ts-heading-01: clamp(2.2rem, 3vw, 2.625rem);
@@ -108,5 +112,18 @@ $section-padding: 72px;
     font-family: $ts-font-family;
     color: $text-black-haf-color;
     line-height: 1.14;
+  }
+}
+// primary button
+.btn {
+  &-primary {
+    background: $bg-white-color;
+    border-radius: 4px;
+    color: $text-link-color;
+    &:hover {
+      background: $bg-primary-color;
+      border-radius: 4px;
+      color: $text-white-color;
+    }
   }
 }
