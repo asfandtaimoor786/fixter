@@ -96,11 +96,71 @@
       grid-template-columns: repeat(2, 1fr);
 }
 
-.fq-card {
-  border: 1px solid #000;
+.fq-desc {
+  width: 80%;
 }
 
-.fq-desc {
-  margin-right: 140px;
+.fq #flush-collapseTow .accordion-body .fa-check-circle {
+  padding-top: 5px;
+  font-size: 24px;
+  color: #1566dc;
+}
+
+.accordion-last-btn {
+  background-color: #f0f2f4;
+  padding: 30px;
+}
+
+@media (max-width: 1000px) {
+  .fq {
+    max-width: 1920px;
+    padding: 50px;
+  }
+  .fq-cont {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.accordion-button::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  -webkit-transition: var(--bs-accordion-btn-icon-transition);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: '';
+  padding: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  background-color: #eaf3ff;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  z-index: 0;
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.accordion-header:hover .accordion-button::after {
+  color: red;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #eaf3ff;
 }
 /*# sourceMappingURL=fq.css.map */
