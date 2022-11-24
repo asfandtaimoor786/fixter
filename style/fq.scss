@@ -1,9 +1,17 @@
 @import 'common';
 .fq {
   max-width: 1920px;
+  padding: $section-padding;
   &-cont {
     max-width: 1600px;
     display: grid;
+    grid-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
+  }
+  &-card {
+    border: 1px solid #000;
+  }
+  &-desc {
+    margin-right: 140px;
   }
 }

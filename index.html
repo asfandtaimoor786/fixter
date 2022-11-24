@@ -1,370 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fister</title>
-    <!-- bootstrap cdn link  -->
-    <link
-      rel="stylesheet"
-      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-    />
-    <!-- css style fixter sheet link  -->
-    <link rel="stylesheet" href="./style/fixter.css" />
-    <!-- css style footer sheet link  -->
-    <link rel="stylesheet" href="./style/footer.css" />
-    <!-- css style modal section 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fister</title>
+  <!-- bootstrap cdn link  -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+  <!-- css style fixter sheet link  -->
+  <link rel="stylesheet" href="./style/fixter.css" />
+  <!-- css style footer sheet link  -->
+  <link rel="stylesheet" href="./style/footer.css" />
+  <!-- css style modal section 
      -->
-    <link rel="stylesheet" href="./style/modal.css" />
-    <!-- css style services section 
+  <link rel="stylesheet" href="./style/modal.css" />
+  <!-- css style services section 
      -->
-    <link rel="stylesheet" href="./style/services.css" />
-    <!-- css style fq section 
+  <link rel="stylesheet" href="./style/services.css" />
+  <!-- css style fq section 
      -->
-    <link rel="stylesheet" href="./style/fq.css" />
-    <!-- font awesome cdn link -->
-    <script
-      src="https://kit.fontawesome.com/dc80c8265b.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div class="fixter">
-      <div
-        class="height"
-        style="height: 40vh; border: 1px solid red; margin-bottom: 100px"
-      ></div>
-      <!-- QUESTION SECTION -->
-      <section class="fq m-auto">
-        <div class="fq-cont m-auto">
-          <div class="fq-heading">
-            <h2 class="TsHeading-02">Have questions? Get answers.</h2>
+  <link rel="stylesheet" href="./style/fq.css" />
+  <!-- font awesome cdn link -->
+  <script src="https://kit.fontawesome.com/dc80c8265b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="fixter">
+    <div class="height" style="height: 40vh; border: 1px solid red; margin-bottom: 100px"></div>
+    <!-- QUESTION SECTION -->
+    <section class="fq m-auto">
+      <div class="fq-cont m-auto">
+        <div class="fq-card">
+          <h2 class="TsHeading-02">Have questions? Get answers.</h2>
+        </div>
+        <div class="fq-card ">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <header class="fq-card__header d-flex justify-content-between align-items-center p-4">
+                    <span class="TsHeading-03">Who is going to drive my car?</span>
+                    <span>
+                      <i class="fas fa-plus"></i>
+                      <i class="fas fa-minus"></i>
+                    </span>
+      
+                  </header>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                 
+                  <div class="p-4  fq-desc accordion-body">
+                    <p class="TsDesc-03">
+                      All of our drivers are fully insured and your vehicle is
+                      always protected.
+                    </p class="TsDesc-03">
+                    <p class="TsDesc-03">
+                      We put our drivers through rigorous vetting and training
+                      before they are able to drive your vehicle. All of our drivers
+                      must have at least 3 years of driving experience, hold a clean
+                      driver's licence, be over the age of 21, capable of driving
+                      both manual and automatic vehicles and pass a criminal
+                      background check.
+                    </p>
+                    <p class="TsDesc-03">
+                      Your vehicle will be assigned to a driver who is responsible
+                      for collecting it from your home, delivering it to the garage
+                      and returning your vehicle once all work is completed.
+                    </p>
+      
+                    <p class="TsDesc-03">
+                      Sometimes we might coordinate with a garage for them to send
+                      their own driver to collect your vehicle. In this instance,
+                      you are protected as you would be if it was a Fixter driver.
+                    </p>
+                  </div></div>
+              
+            </div>
+            
+          </div>
+          <div>
+           
+           
           </div>
         </div>
-      </section>
-
-      <!-- services section  -->
-      <section class="TsServices m-auto text-center">
-        <div class="TsServices-header m-auto">
-          <h2 class="TsHeading-04 pb-4">
-            Tell us where you are and which services you need; <br />
-            we'll find you a top-rated garage!
-          </h2>
-          <p class="TsDesc-04">
-            <b
-              >We've partnered with the top rated garages in the UK to offer you
-              the best prices and services for your car.</b
-            >
-          </p>
-          <p class="TsDesc-03">
-            Our in-house mechanics personally select each garage we work with,
-            directly negotiate prices with them and always review their
-            top-notch services on our clients cars.
-          </p>
-        </div>
-
-        <div class="TsServices-cont m-auto pt-4">
-          <div class="TsServices-location text-start">
-            <p><b>Popular locations:</b></p>
-            <div class="TsServices-link">
-              <ul class="nav p-0 flex-column">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in London</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Leeds</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Liverpool</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Manchester</a>
-                </li>
-              </ul>
-              <ul class="nav p-0 flex-column">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Birmingham</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Southampton</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Garages in Nottingham</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-underline" href=""
-                    >View all locations</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="TsServices-services text-start">
-            <p><b>Popular services:</b></p>
-            <div class="TsServices-link">
-              <ul class="nav p-0 flex-column">
-                <li class="nav-item">
-                  <a class="nav-link text-danger" href=""
-                    ><b> MOT from £39</b></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-danger" href=""
-                    ><b> Servicing from £59</b></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-danger" href="">
-                    <b>Diagnostic from £49</b>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Brake pad replacement</a>
-                </li>
-              </ul>
-              <ul class="nav p-0 flex-column">
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Brake disc replacement</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Clutch kit replacement</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Alternator replacement</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-underline" href="">
-                    View all services</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- section ts modal -->
-      <section class="TsModal m-auto">
-        <div class="TsModal-cont text-center m-auto">
-          <div class="col-12 text-center">
-            <img
-              class="w-100 TsModal-img"
-              src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_384,q_auto/landing/carmakes_y2mo02.png"
-              alt=""
-            />
-          </div>
-          <div class="col-12 pt-5">
-            <h3 class="TsHeading-04">We cover all makes and models</h3>
-          </div>
-          <div class="TsModal-cards w-100 pt-5">
-            <div class="card"><p>Alfa Romeo</p></div>
-            <div class="card"><p>Audi</p></div>
-            <div class="card"><p>Austin</p></div>
-            <div class="card"><p>BMW</p></div>
-            <div class="card"><p>Chevrolet</p></div>
-            <div class="card"><p>Chrysler</p></div>
-            <div class="card"><p>Citroen</p></div>
-            <div class="card"><p>Dacia</p></div>
-            <div class="card"><p>Daewoo</p></div>
-            <div class="card"><p>Dodge</p></div>
-            <div class="card"><p>DS</p></div>
-            <div class="card"><p>Fiat</p></div>
-          </div>
-          <div class="TsModal-button pt-3">
-            <a class="btn TsDesc-03 fw-bold">
-              View all covered car makes and models
-              <i class="fas fa-arrow-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <div>
-        <!-- footer section -->
-        <section class="TsFooter">
-          <div class="m-auto TsFooter-container">
-            <div class="TsFooter-nav d-flex">
-              <div class="col-3">
-                <div class="row pb-4">
-                  <div class="col-12">
-                    <h3 class="TsHeading-05">Meet Fixter</h3>
-                    <ul class="p-0 nav flex-column">
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Services and prices</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">How it works</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Cars</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">FAQs</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-12 pt-4">
-                    <h3 class="TsHeading-05">Join Us</h3>
-                    <ul class="p-0 nav flex-column">
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Careers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Life at Fixter</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Driver sign-up</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Garage sign-up</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Partnerships</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <h3 class="TsHeading-05">Popular Services</h3>
-                <ul class="p-0 nav flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">MOT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Car service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#"
-                      >Front brake pads replacement</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#"
-                      >Rear brake pads replacement</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#"
-                      >Front brake discs & pads replacement</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Timing belt replacement</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Diagnostic inspection</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Clutch kit replacement</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#"
-                      >Car battery replacement & fitting</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Air conditioning regas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link p-0" href="#">Water pump replacement</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="link p-0" href="#">View all services</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-3">
-                <div class="row">
-                  <div class="col-12">
-                    <h3 class="TsHeading-05">Terms</h3>
-                    <ul class="p-0 nav flex-column">
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#"
-                          >Terms and Conditions</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#"
-                          >Cookie and privacy policy</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-12 pt-4">
-                    <h3 class="TsHeading-05">Garages</h3>
-                    <ul class="p-0 nav flex-column">
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Garages Login</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-12 pt-4">
-                    <h3 class="TsHeading-05">Payment Methods</h3>
-                    <ul class="p-0 nav">
-                      <span
-                        ><img src="./icon/icon_mastercard_rjsrfx.svg" alt=""
-                      /></span>
-                      <span
-                        ><img src="./icon/icon_visa_hrskov.svg" alt=""
-                      /></span>
-                    </ul>
-                  </div>
-                  <div class="col-12 pt-4">
-                    <h3 class="TsHeading-05">Call Us</h3>
-                    <ul class="p-0 nav flex-column">
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="#">0330 808 9527</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <span
-                  ><img src="./icon/icon_mastercard_rjsrfx.svg" alt=""
-                /></span>
-                <span> In partnership with AXA™ Insurance </span>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6 pb-4 pb-md-0">
-                <p class="TsDesc-04 m-0 text-center text-md-start">
-                  © 2022 Fixter Limited • All rights reserved • Company No.
-                  10426619
-                </p>
-              </div>
-
-              <div
-                class="col-12 col-md-6 text-center p-2 text-md-end TsFooter-icon"
-              >
-                <span class="me-3">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </span>
-                <span class="me-3">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </span>
-                <span class="me-3">
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </span>
-                <span>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
+    </section>
+
+    <!-- services section  -->
+    <section class="TsServices m-auto text-center">
+      <div class="TsServices-header m-auto">
+        <h2 class="TsHeading-04 pb-4">
+          Tell us where you are and which services you need; <br />
+          we'll find you a top-rated garage!
+        </h2>
+        <p class="TsDesc-04">
+          <b>We've partnered with the top rated garages in the UK to offer you
+            the best prices and services for your car.</b>
+        </p>
+        <p class="TsDesc-03">
+          Our in-house mechanics personally select each garage we work with,
+          directly negotiate prices with them and always review their
+          top-notch services on our clients cars.
+        </p>
+      </div>
+
+      <div class="TsServices-cont m-auto pt-4">
+        <div class="TsServices-location text-start">
+          <p><b>Popular locations:</b></p>
+          <div class="TsServices-link">
+            <ul class="nav p-0 flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in London</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Leeds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Liverpool</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Manchester</a>
+              </li>
+            </ul>
+            <ul class="nav p-0 flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Birmingham</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Southampton</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Garages in Nottingham</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-decoration-underline" href="">View all locations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="TsServices-services text-start">
+          <p><b>Popular services:</b></p>
+          <div class="TsServices-link">
+            <ul class="nav p-0 flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-danger" href=""><b> MOT from £39</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href=""><b> Servicing from £59</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="">
+                  <b>Diagnostic from £49</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""> Brake pad replacement</a>
+              </li>
+            </ul>
+            <ul class="nav p-0 flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href=""> Brake disc replacement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""> Clutch kit replacement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""> Alternator replacement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-decoration-underline" href="">
+                  View all services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section ts modal -->
+    <section class="TsModal m-auto">
+      <div class="TsModal-cont text-center m-auto">
+        <div class="col-12 text-center">
+          <img class="w-100 TsModal-img"
+            src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_384,q_auto/landing/carmakes_y2mo02.png"
+            alt="" />
+        </div>
+        <div class="col-12 pt-5">
+          <h3 class="TsHeading-04">We cover all makes and models</h3>
+        </div>
+        <div class="TsModal-cards w-100 pt-5">
+          <div class="card">
+            <p>Alfa Romeo</p>
+          </div>
+          <div class="card">
+            <p>Audi</p>
+          </div>
+          <div class="card">
+            <p>Austin</p>
+          </div>
+          <div class="card">
+            <p>BMW</p>
+          </div>
+          <div class="card">
+            <p>Chevrolet</p>
+          </div>
+          <div class="card">
+            <p>Chrysler</p>
+          </div>
+          <div class="card">
+            <p>Citroen</p>
+          </div>
+          <div class="card">
+            <p>Dacia</p>
+          </div>
+          <div class="card">
+            <p>Daewoo</p>
+          </div>
+          <div class="card">
+            <p>Dodge</p>
+          </div>
+          <div class="card">
+            <p>DS</p>
+          </div>
+          <div class="card">
+            <p>Fiat</p>
+          </div>
+        </div>
+        <div class="TsModal-button pt-3">
+          <a class="btn TsDesc-03 fw-bold">
+            View all covered car makes and models
+            <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <div>
+      <!-- footer section -->
+      <section class="TsFooter">
+        <div class="m-auto TsFooter-container">
+          <div class="TsFooter-nav d-flex">
+            <div class="col-3">
+              <div class="row pb-4">
+                <div class="col-12">
+                  <h3 class="TsHeading-05">Meet Fixter</h3>
+                  <ul class="p-0 nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Services and prices</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">FAQs</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 pt-4">
+                  <h3 class="TsHeading-05">Join Us</h3>
+                  <ul class="p-0 nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Life at Fixter</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Driver sign-up</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Garage sign-up</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Partnerships</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <h3 class="TsHeading-05">Popular Services</h3>
+              <ul class="p-0 nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">MOT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Car service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Front brake pads replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Rear brake pads replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Front brake discs & pads replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Timing belt replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Diagnostic inspection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Clutch kit replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Car battery replacement & fitting</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Air conditioning regas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Water pump replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link p-0" href="#">View all services</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="TsHeading-05">Terms</h3>
+                  <ul class="p-0 nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Terms and Conditions</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Cookie and privacy policy</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 pt-4">
+                  <h3 class="TsHeading-05">Garages</h3>
+                  <ul class="p-0 nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">Garages Login</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 pt-4">
+                  <h3 class="TsHeading-05">Payment Methods</h3>
+                  <ul class="p-0 nav">
+                    <span><img src="./icon/icon_mastercard_rjsrfx.svg" alt="" /></span>
+                    <span><img src="./icon/icon_visa_hrskov.svg" alt="" /></span>
+                  </ul>
+                </div>
+                <div class="col-12 pt-4">
+                  <h3 class="TsHeading-05">Call Us</h3>
+                  <ul class="p-0 nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link p-0" href="#">0330 808 9527</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <span><img src="./icon/icon_mastercard_rjsrfx.svg" alt="" /></span>
+              <span> In partnership with AXA™ Insurance </span>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 pb-4 pb-md-0">
+              <p class="TsDesc-04 m-0 text-center text-md-start">
+                © 2022 Fixter Limited • All rights reserved • Company No.
+                10426619
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 text-center p-2 text-md-end TsFooter-icon">
+              <span class="me-3">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </span>
+              <span class="me-3">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </span>
+              <span class="me-3">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </span>
+              <span>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </body>
+  </div>
+
+
+  <!-- javascript files link -->
+  <!-- bootstrap.js  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- fq section  -->
+  <script src="./js/fq.js"></script>
+</body>
+
 </html>

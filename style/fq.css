@@ -84,13 +84,23 @@
 
 .fq {
   max-width: 1920px;
+  padding: 72px;
 }
 
 .fq-cont {
   max-width: 1600px;
   display: -ms-grid;
   display: grid;
+  grid-gap: 2rem;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+}
+
+.fq-card {
+  border: 1px solid #000;
+}
+
+.fq-desc {
+  margin-right: 140px;
 }
 /*# sourceMappingURL=fq.css.map */
