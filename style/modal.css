@@ -82,14 +82,80 @@
   color: #fff;
 }
 
-* {
-  margin: 0%;
-  padding: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.TsModal {
+  padding: 72px;
+  max-width: 1920px;
 }
 
-html {
-  scroll-behavior: smooth;
+.TsModal-cont {
+  max-width: 1800px;
 }
-/*# sourceMappingURL=fixter.css.map */
+
+.TsModal-img {
+  max-width: 450px;
+}
+
+.TsModal-cards {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+.TsModal .card {
+  border: none;
+  padding-block: 50px;
+  text-align: center;
+}
+
+.TsModal .card p {
+  margin: 0px;
+  color: #4a5a6d;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.77778;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsModal .card:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.401);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.401);
+  cursor: pointer;
+}
+
+.TsModal-button .btn {
+  padding: 20px 15px;
+  color: #1082ea;
+  background-color: #1081ea0b;
+}
+
+.TsModal-button .btn .fas {
+  margin-left: 60px;
+}
+
+.TsModal-button .btn:hover {
+  background-color: #1082ea;
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
+}
+
+@media (max-width: 767px) {
+  .TsModal {
+    padding: 50px;
+  }
+  .TsModal-cards {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1rem;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .TsModal-button .btn {
+    display: block;
+  }
+}
+/*# sourceMappingURL=modal.css.map */

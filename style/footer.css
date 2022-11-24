@@ -70,6 +70,18 @@
   line-height: 1.14;
 }
 
+.btn-primary {
+  background: #fff;
+  border-radius: 4px;
+  color: #1082ea;
+}
+
+.btn-primary:hover {
+  background: #1566dc;
+  border-radius: 4px;
+  color: #fff;
+}
+
 .TsFooter {
   border-top: 1px solid #dee6f0;
   padding: 72px;
@@ -77,7 +89,7 @@
 }
 
 .TsFooter-container {
-  max-width: 1440px;
+  max-width: 1600px;
 }
 
 .TsFooter-container-nav .nav-item {

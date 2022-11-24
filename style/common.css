@@ -69,4 +69,16 @@
   color: #4a5a6d;
   line-height: 1.14;
 }
+
+.btn-primary {
+  background: #fff;
+  border-radius: 4px;
+  color: #1082ea;
+}
+
+.btn-primary:hover {
+  background: #1566dc;
+  border-radius: 4px;
+  color: #fff;
+}
 /*# sourceMappingURL=common.css.map */
