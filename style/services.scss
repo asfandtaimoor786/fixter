@@ -1,0 +1,57 @@
+@import 'common';
+.TsServices {
+  padding: $section-padding;
+  background-color: $bg-white-haf-color;
+  &-header {
+    max-width: 1600px;
+    h2 {
+      letter-spacing: 1px;
+    }
+    .TsDesc-04 {
+      color: rgb(21, 102, 220);
+      font-weight: $ts-font-weight-700;
+    }
+  }
+  &-cont {
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  &-location,
+  &-services {
+    border: 1px solid rgb(222, 230, 240);
+    padding: 24px 24px;
+    border-radius: 5px;
+  }
+  &-link {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .nav-link {
+      padding: 5px 0px;
+      font-size: 0.933333rem;
+      font-family: $ts-font-family;
+      color: $text-black-haf-color;
+      line-height: 1.87;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .TsServices {
+    &-link {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+@media (max-width: 800px) {
+  .TsServices {
+    padding: 40px;
+
+    &-cont {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
