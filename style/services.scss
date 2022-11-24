@@ -33,6 +33,25 @@
       font-family: $ts-font-family;
       color: $text-black-haf-color;
       line-height: 1.87;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .TsServices {
+    &-link {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+@media (max-width: 800px) {
+  .TsServices {
+    padding: 40px;
+
+    &-cont {
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }
