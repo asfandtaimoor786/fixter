@@ -1,0 +1,17 @@
+@import 'common';
+.garages {
+  padding: $section-padding;
+  &-cont {
+    max-width: 1440px;
+  }
+}
+@media (max-width: 991px) {
+  .garages {
+    padding: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .garages {
+    padding: 10px;
+  }
+}
