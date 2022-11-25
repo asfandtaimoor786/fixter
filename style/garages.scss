@@ -1,0 +1,30 @@
+@import 'common';
+.garages {
+  padding: $section-padding;
+  &-cont {
+    max-width: 1440px;
+    display: grid;
+    grid-column-gap: 8rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .garages {
+    &-cont {
+      max-width: 1440px;
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+@media (max-width: 700px) {
+  .garages {
+    padding: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .mission {
+    padding: 10px;
+  }
+}
