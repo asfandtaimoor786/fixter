@@ -18,7 +18,7 @@
 
 .TsHeading-02 {
   font-weight: 700;
-  font-size: clamp(2.3rem, 3vw, 2.375rem);
+  font-size: clamp(2rem, 3vw, 2.375rem);
   line-height: 1.05263;
 }
 
@@ -88,5 +88,17 @@
 
 .garages-cont {
   max-width: 1440px;
+}
+
+@media (max-width: 991px) {
+  .garages {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .garages {
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=garages.css.map */
