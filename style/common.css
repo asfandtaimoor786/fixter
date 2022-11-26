@@ -3,6 +3,26 @@
   src: url("/ProximaNovaFont.otf");
 }
 
+.bg-primary {
+  background-color: #1566dc;
+}
+
+.bg-white-haf {
+  background-color: #f6faff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-blue {
+  background-color: #eaf3ff;
+}
+
+.bg-green {
+  background-color: #eefaf6;
+}
+
 .TsHeading-01, .TsHeading-02, .TsHeading-03 {
   color: #203a52;
   word-break: break-word;

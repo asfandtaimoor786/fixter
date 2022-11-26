@@ -3,6 +3,26 @@
   src: url("/ProximaNovaFont.otf");
 }
 
+.bg-primary {
+  background-color: #1566dc;
+}
+
+.bg-white-haf {
+  background-color: #f6faff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-blue {
+  background-color: #eaf3ff;
+}
+
+.bg-green {
+  background-color: #eefaf6;
+}
+
 .TsHeading-01, .TsHeading-02, .TsHeading-03 {
   color: #203a52;
   word-break: break-word;
@@ -83,7 +103,6 @@
 }
 
 .review {
-  background-color: #eefaf6;
   padding: 72px;
 }
 
@@ -91,22 +110,23 @@
   max-width: 1440px;
 }
 
-.review-details {
-  padding: 40px 0px;
+.experts {
+  max-width: 1440px;
   display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
 }
 
-.review-details-card {
+.experts-card {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.review-details-card img {
+.experts-card img {
   width: 64px;
   height: 64px;
   margin-right: 15px;

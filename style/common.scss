@@ -20,7 +20,25 @@ $text-white-color: #fff;
 $bg-primary-color: rgb(21, 102, 220);
 $bg-white-haf-color: rgb(246, 250, 255);
 $bg-white-color: #fff;
+$bg-white-blue-color: rgb(234, 243, 255);
+$bg-green-color: #eefaf6;
+
 // font size
+.bg-primary {
+  background-color: $bg-primary-color;
+}
+.bg-white-haf {
+  background-color: $bg-white-haf-color;
+}
+.bg-white {
+  background-color: $bg-white-color;
+}
+.bg-blue {
+  background-color: $bg-white-blue-color;
+}
+.bg-green {
+  background-color: $bg-green-color;
+}
 // heading
 $ts-heading-01: clamp(2.2rem, 3vw, 2.625rem);
 $ts-heading-02: clamp(2rem, 3vw, 2.375rem);
