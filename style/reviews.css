@@ -197,6 +197,9 @@
 }
 
 @media (max-width: 1000px) {
+  .review {
+    padding: 20px;
+  }
   .experts {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);

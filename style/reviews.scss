@@ -94,6 +94,9 @@
 }
 
 @media (max-width: 1000px) {
+  .review {
+    padding: 20px;
+  }
   .experts {
     grid-template-columns: repeat(2, 1fr);
 
@@ -108,7 +111,8 @@
     }
   }
 }
-
+@media (max-width: 600px) {
+}
 @media (max-width: 560px) {
   .experts {
     padding: 10px;
