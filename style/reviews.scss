@@ -1,22 +1,22 @@
 @import 'common';
 .review {
-  background-color: rgb(238, 250, 246);
   padding: $section-padding;
   &-cont {
     max-width: 1440px;
   }
-  &-details {
-    padding: 40px 0px;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
-    &-card {
-      align-items: flex-start;
-      img {
-        width: 64px;
-        height: 64px;
-        margin-right: 15px;
-      }
+}
+.experts {
+  max-width: 1440px;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+  &-card {
+    align-items: flex-start;
+    img {
+      width: 64px;
+      height: 64px;
+      margin-right: 15px;
     }
   }
 }
