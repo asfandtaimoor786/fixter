@@ -84,6 +84,7 @@
 
 .fq {
   max-width: 1920px;
+  min-width: 350px;
   padding: 72px;
 }
 

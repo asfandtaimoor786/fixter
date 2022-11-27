@@ -1,6 +1,7 @@
 @import 'common';
 .fq {
   max-width: 1920px;
+  min-width: 350px;
   padding: $section-padding;
   &-cont {
     max-width: 1600px;
