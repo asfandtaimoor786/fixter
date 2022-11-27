@@ -84,6 +84,7 @@
 
 .mission {
   padding: 72px;
+  min-width: 350px;
 }
 
 .mission-cont {

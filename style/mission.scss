@@ -1,6 +1,7 @@
 @import 'common';
 .mission {
   padding: $section-padding;
+  min-width: 350px;
   &-cont {
     max-width: 1440px;
     display: grid;
