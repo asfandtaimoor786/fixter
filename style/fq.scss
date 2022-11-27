@@ -85,3 +85,8 @@
   // background-color: red;
   background-color: rgb(234, 243, 255);
 }
+@media (max-width: 600px) {
+  .fq {
+    padding: 20px 10px;
+  }
+}

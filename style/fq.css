@@ -168,4 +168,10 @@
   border-radius: 100px;
   background-color: #eaf3ff;
 }
+
+@media (max-width: 600px) {
+  .fq {
+    padding: 20px 10px;
+  }
+}
 /*# sourceMappingURL=fq.css.map */
