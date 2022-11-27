@@ -84,6 +84,7 @@
 
 .contact {
   max-width: 1440px;
+  min-width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
