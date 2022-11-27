@@ -1,6 +1,21 @@
+@import 'common';
 .work {
   max-width: 1920px;
+  padding: $section-padding;
   .cont {
     max-width: 1440px;
+  }
+  &-VideoCard {
+    position: relative;
+    //     &::after {
+    //       content: '';
+    //       display: block;
+    //       position: absolute;
+    //       inset: 0px;
+    //       bottom: 0px;
+    //       background-color: rgba(32, 58, 82, 0.7);
+    //       mix-blend-mode: multiply;
+    //       height: 10%;
+    //     }
   }
 }
