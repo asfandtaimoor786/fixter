@@ -1,0 +1,103 @@
+@import 'common';
+.navigation {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 999;
+
+  .navbar {
+    max-width: 1920px;
+    padding: 12px 70px;
+
+    &-toggler {
+      border: 0px;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  &-brand {
+    width: 90px;
+    height: 24px;
+  }
+
+  .btn {
+    &-primary {
+      background-color: rgb(16, 130, 234);
+      padding-inline: 30px;
+      //   box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 32%);
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.32);
+      &:hover {
+        background-color: rgb(54, 149, 238);
+      }
+    }
+
+    &-login {
+      font-size: 14px;
+      color: rgba(31, 31, 31, 0.842);
+
+      &:hover {
+        color: rgb(16, 130, 234);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .phone-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation {
+    .container-fluid {
+      padding: 15px 0px;
+    }
+
+    .phone-icon {
+      padding-left: 20px;
+    }
+
+    .navbar {
+      padding: 0px;
+
+      &-toggler {
+        padding-right: 20px;
+      }
+    }
+
+    .nav {
+      &-item {
+        padding: 10px 20px;
+        border-top: 1px solid rgb(212, 220, 232);
+      }
+
+      &-link {
+        font-size: 19px;
+      }
+    }
+
+    .btn {
+      &-login {
+        display: none;
+      }
+
+      &-primary {
+        padding: 15px;
+      }
+    }
+
+    .RightBtn {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+  }
+}
+
+.height1 {
+  background: #000;
+}

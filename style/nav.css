@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'ProximaNova', sans-serif;
+  src: url("/ProximaNovaFont.otf");
+}
+
+.bg-primary {
+  background-color: #1566dc;
+}
+
+.bg-white-haf {
+  background-color: #f6faff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-blue {
+  background-color: #eaf3ff;
+}
+
+.bg-green {
+  background-color: #eefaf6;
+}
+
+.TsHeading-01, .TsHeading-02, .TsHeading-03 {
+  color: #203a52;
+  word-break: break-word;
+  font-family: ProximaNova, sans-serif;
+  color: #203a52;
+}
+
+.TsHeading-01 {
+  font-size: clamp(2.4rem, 4vw, 2.625rem);
+  line-height: 1.04762;
+  font-weight: 600;
+}
+
+.TsHeading-02 {
+  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 2.375rem);
+  line-height: 1.05263;
+}
+
+.TsHeading-03 {
+  font-size: clamp(1.2rem, 3vw, 1.25rem);
+  font-weight: 600;
+}
+
+.TsHeading-04 {
+  line-height: 1.25;
+  font-weight: 200;
+  color: #32382e;
+  font-family: ProximaNova, sans-serif;
+  font-size: clamp(2.1rem, 3vw, 2.13333rem);
+}
+
+.TsHeading-05 {
+  line-height: 1.23;
+  font-weight: 700;
+  color: #32382e;
+  font-family: ProximaNova, sans-serif;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+}
+
+.TsHeading-06 {
+  font-weight: 600;
+}
+
+.TsDesc-02 {
+  color: #4a5a6d;
+  font-size: clamp(1.4rem, 3vw, 1.4275rem);
+  font-weight: 400;
+  line-height: 1.21739;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsDesc-03 {
+  color: #4a5a6d;
+  font-size: clamp(1.1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.77778;
+  font-family: ProximaNova, sans-serif;
+}
+
+.TsDesc-04 {
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-family: ProximaNova, sans-serif;
+  color: #4a5a6d;
+  line-height: 1.14;
+}
+
+.btn-primary {
+  background: #fff;
+  border-radius: 4px;
+  color: #1082ea;
+}
+
+.btn-primary:hover {
+  background: #1566dc;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.navigation {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 999;
+}
+
+.navigation .navbar {
+  max-width: 1920px;
+  padding: 12px 70px;
+}
+
+.navigation .navbar-toggler {
+  border: 0px;
+}
+
+.navigation .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navigation-brand {
+  width: 90px;
+  height: 24px;
+}
+
+.navigation .btn-primary {
+  background-color: #1082ea;
+  padding-inline: 30px;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.32);
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.32);
+}
+
+.navigation .btn-primary:hover {
+  background-color: #3695ee;
+}
+
+.navigation .btn-login {
+  font-size: 14px;
+  color: rgba(31, 31, 31, 0.842);
+}
+
+.navigation .btn-login:hover {
+  color: #1082ea;
+}
+
+@media (min-width: 992px) {
+  .phone-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation .container-fluid {
+    padding: 15px 0px;
+  }
+  .navigation .phone-icon {
+    padding-left: 20px;
+  }
+  .navigation .navbar {
+    padding: 0px;
+  }
+  .navigation .navbar-toggler {
+    padding-right: 20px;
+  }
+  .navigation .nav-item {
+    padding: 10px 20px;
+    border-top: 1px solid #d4dce8;
+  }
+  .navigation .nav-link {
+    font-size: 19px;
+  }
+  .navigation .btn-login {
+    display: none;
+  }
+  .navigation .btn-primary {
+    padding: 15px;
+  }
+  .navigation .RightBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.height1 {
+  background: #000;
+}
+/*# sourceMappingURL=nav.css.map */
