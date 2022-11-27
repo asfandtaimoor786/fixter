@@ -84,6 +84,7 @@
 
 .garages {
   padding: 72px;
+  min-width: 350px;
 }
 
 .garages-cont {
