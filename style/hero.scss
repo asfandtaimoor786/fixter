@@ -1,0 +1,102 @@
+.offer {
+  min-width: 350px;
+  &-left {
+    padding: 8px 40px 8px 0px;
+    background: radial-gradient(
+          circle at 25px 15px,
+          rgb(254, 210, 0) 3px,
+          transparent 2px
+        )
+        0% 0% / 100% 76px,
+      radial-gradient(
+        circle at 120px 70px,
+        rgb(255, 255, 255) 4px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 150px 20px,
+        rgb(254, 210, 0) 2px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 350px 62px,
+        rgb(255, 255, 255) 3px,
+        transparent 2px
+      ),
+      radial-gradient(
+          circle at 600px 72px,
+          rgb(255, 255, 255) 3px,
+          transparent 3px
+        )
+        rgb(18, 35, 52);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    h3 {
+      color: rgb(254, 210, 0);
+    }
+    //     &::after {
+    //       content: '';
+    //       position: absolute;
+    //       right: -1%;
+    //       top: 70%;
+    //       width: 0%;
+    //       height: 0%;
+    //       border-top: 51px solid transparent;
+    //       border-bottom: 51px solid transparent;
+    //       border-left: 30px solid rgb(18, 35, 52);
+    //       border-image: initial;
+    //       border-right: 40px;
+    //       margin-top: -75px;
+    //       margin-right: -20px;
+    //       z-index: 5;
+    //     }
+    .label {
+      width: 28px;
+      height: 48px;
+    }
+  }
+  &-right {
+    padding: 20px 0px 20px 90px;
+    background: radial-gradient(
+          circle at 240px 15px,
+          rgb(255, 255, 255) 4px,
+          transparent 2px
+        )
+        0% 0% / 100% 76px,
+      radial-gradient(
+        circle at 290px 71px,
+        rgb(255, 255, 255) 4px,
+        transparent 2px
+      ),
+      radial-gradient(
+          circle at 340px 40px,
+          rgb(255, 255, 255) 3px,
+          transparent 1px
+        )
+        rgb(254, 210, 0);
+    .description {
+      font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+  }
+}
+@media (max-width: 992px) {
+  .offer {
+    &-left {
+      padding: 10px 15px 10px 0px;
+    }
+    &-right {
+      padding: 15px 0px 15px 60px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .offer {
+    &-left {
+      padding: 8px 10px 8px 0px;
+    }
+    &-right {
+      padding: 10px 0px 10px 30px;
+    }
+  }
+}

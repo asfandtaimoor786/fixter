@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>fixter</title>
-  <!-- bootstrap cdn link  -->
-  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+   <!-- bootstrap cdn fille  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
       <!-- Link Swiper's CSS -->
       <link
       rel="stylesheet"
@@ -41,14 +42,98 @@
    <!-- css style work  section 
      -->
      <link rel="stylesheet" href="./style/work.css" />
-
+     <!-- css style customers  section 
+     -->
+     <link rel="stylesheet" href="./style/customers.css" />
+     <!-- css style  nav section 
+     -->
+     <link rel="stylesheet" href="./style/nav.css" />
+      <!-- css style  hero section 
+     -->
+     <link rel="stylesheet" href="./style/hero.css" />
   <!-- font awesome cdn link -->
   <script src="https://kit.fontawesome.com/dc80c8265b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="fixter">
-    <div class="height" style="height: 40vh; border: 1px solid red; margin-bottom: 100px"></div>
+    <!-- HEADER SECTION  -->
+    <header class="bg-white w-100 position-fixed navigation"> 
+      <nav class="navbar navbar-expand-lg m-auto bg-white">
+
+          <div class="container-fluid">
+              <div class="phone-icon"><img src="./icon/icon_phone_f5mhih.svg" alt=""> <b>Call us</b></div>
+              <a class="navbar-brand" href="#"><img class="w-100 pb-1" src="./icon/logo.svg" alt=""></a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="open" ><img src="./icon/navbtn.svg" alt=""></span>
+                 
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">
+                             <b> How it works</b></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">
+                             <b>MOT</b> </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">
+                             <b>Car repair</b> </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                             <b>Car service</b> 
+                          </a>
+                          <ul class="dropdown-menu rounded-0 border-0">
+                              <li><a class="dropdown-item" href="#">Timing belt</a></li>
+                              <li><a class="dropdown-item" href="#">Diagnose and Fix problems</a></li>
+                               
+                              <li><a class="dropdown-item" href="#">Brake pads front</a></li>
+                              <li><a class="dropdown-item" href="#">Brake pads rear</a></li>
+                              <li><a class="dropdown-item" href="#">See all repairs</a></li>
+
+                          </ul>
+                      </li>
+                      <li class="nav-item border-1 d-lg-none">
+                          <a class="nav-link" href="#">
+                             <b>login</b> </a>
+                      </li>
+
+
+                  </ul>
+                  <form class="RightBtn" role="search">
+                      <button class="btn btn-login border-0 me-3" type="submit"><b>Login</b></button>
+                      <button class="btn btn-primary text-white"> <b>Get instant quote</b> </button>
+                  </form>
+              </div>
+          </div>
+
+      </nav>
+
+  </header>  
+  <!-- <div class="con" style="height:30vh"></div> -->
+  <!-- LIMITED OFFER SECTION BAR  -->
+  <div class="row offer">
+    <div class="col-sm-2 col-3 d-flex col-md-5 offer-left ">
+<div class="d-flex h-100 align-items-center">
+  <img class="me-4 label" src="./icon/icon_discount_yellow_szxx1n.svg" alt="">
+  <h3 class="TsHeading-01 d-none d-md-block m-0">Limited Offer!</h3>
+</div>
+</div> 
+    <div class="col-md-7 col-sm-10 col-9 offer-right d-md-flex align-items-center">
+      <h3 class="TsDesc-01 d-md-none m-0">Limited Offer!</h3>
+      <div class="m-0 text-black description">Book today for <b>Free Collection & Delivery</b> </div></div>
+
+  </div>
+
+
     <!-- OUR WORKS SECTION  -->
     <section class="work m-auto">
       <div class="work-cont m-auto">
@@ -389,6 +474,109 @@
         </div>
 
       </div>
+    </section>
+    <!-- OUR CUSTOMERS SECTION  -->
+    <section class="customers  m-auto">
+      <div class="customers-cont m-auto">
+        <div class="review-header text-center">
+          <h2 class="TsHeading-01">Why our customers love us</h2>
+          <h3 class="TsDesc-02 py-3">See how much they saved</h3>
+ 
+        </div>
+         <!-- Swiper -->
+    <div class="swiper mySwiper mt-5">
+      <div class="swiper-wrapper ">
+     
+        <div class="swiper-slide">
+            <div class="">
+              <div class="swiper-slide-img">
+                <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_3840,q_auto/v1666866226/contentful/carousel/Customers/Renault-Megane_ui2qr0.jpg" alt="">
+              </div>
+          </div> 
+        <h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+        <h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+        <div class="mt-4">
+          <div class="d-flex align-items-center">
+            <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="">
+            <div class="swiper-slide-img">
+              <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1666866224/contentful/carousel/Customers/Peugeot-2008_dtyt48.jpg" alt="">
+            </div>
+        </div> 
+      <h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+      <h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+      <div class="mt-4">
+        <div class="d-flex align-items-center">
+          <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="">
+          <div class="swiper-slide-img">
+            <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1666866226/contentful/carousel/Customers/Porsche-Cayenne_ft12uv.jpg" alt="">
+          </div>
+      </div> 
+    <h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+    <h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+    <div class="mt-4">
+      <div class="d-flex align-items-center">
+        <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+      </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="">
+        <div class="swiper-slide-img">
+          <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1666866225/contentful/carousel/Customers/Renault-Captur_ryxb9e.jpg" alt="">
+        </div>
+    </div> 
+  <h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+  <h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+  <div class="mt-4">
+    <div class="d-flex align-items-center">
+      <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+    </div>
+  </div>
+  </div>
+  <div class="swiper-slide">
+    <div class="">
+      <div class="swiper-slide-img">
+        <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1666866225/contentful/carousel/Customers/Mercedes-Benz_wsfjuq.jpg" alt="">
+      </div>
+  </div> 
+<h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+<h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+<div class="mt-4">
+  <div class="d-flex align-items-center">
+    <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+  </div>
+</div>
+</div>
+<div class="swiper-slide">
+  <div class="">
+    <div class="swiper-slide-img">
+      <img class="w-100" src="https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1666866224/contentful/carousel/Customers/Mini-convertible_n6vg5p.jpg" alt="">
+    </div>
+</div> 
+<h2 class="TsDesc-02 my-3">Jake, Peugeot 2008</h2>
+<h3 class="TsHeading-03"> <strong></strong>"The staff were super helpful, and I was kept informed every step of the way by email/text message."</strong></h3>
+<div class="mt-4">
+<div class="d-flex align-items-center">
+  <a href="#" type="button" class="btn btn-outline-secondary ">SAVE$252</a><p class="TsDesc-04 flex-wrap m-0 ms-2">ON AN MOT + FULL SERVICE</p> </a>
+</div>
+</div>
+</div>
+       
+      </div>
+      <div class="swiper-btn-next"><i class="fas fa-arrow-left"></i></div>
+      <div class="swiper-btn-prev"><i class="fas fa-arrow-right"></i></div> 
+    </div> 
+      </div> 
     </section>
     <!-- OUR MISSION SECTION  -->
     <section class="mission">
@@ -1077,7 +1265,11 @@
 
   <!-- javascript files link -->
   <!-- bootstrap files  -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+   
    <!-- Swiper JS -->
    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -1116,6 +1308,7 @@
   }
      });
    </script>
+ 
   <!-- fq section  -->
   <!-- <script src="./js/slider.js"></script> -->
 </body>
