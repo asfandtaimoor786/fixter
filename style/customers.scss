@@ -1,0 +1,16 @@
+@import 'common';
+.customers {
+  max-width: 1920px;
+  min-width: 350px;
+  padding: $section-padding;
+  &-cont {
+    max-width: 1440px;
+    .swiper {
+      &-slid {
+        h3 {
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
