@@ -1,6 +1,89 @@
+@import 'common';
 .work {
   max-width: 1920px;
+  min-width: 350px;
+  padding: $section-padding;
   .cont {
     max-width: 1440px;
+  }
+  &-VideoCard {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .description {
+      display: flex;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      align-items: center;
+      column-gap: 15px;
+      width: 100%;
+      padding: 10px;
+      position: relative;
+      span {
+        z-index: 9;
+      }
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        inset: 0px;
+        bottom: 0px;
+        background-color: rgba(32, 58, 82, 0.7);
+        mix-blend-mode: multiply;
+        height: 100%;
+        z-index: 1;
+      }
+    }
+    .play-btn {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .bi-play-fill {
+        border: 6px solid #fff;
+        color: #fff;
+        border-radius: 100%;
+        padding: 15px;
+        z-index: 999;
+        margin: auto;
+      }
+    }
+    &:hover .bi-play-fill {
+      color: rgb(21, 102, 220);
+      background: #fff;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .work {
+    padding: 20px 10px;
+    &-VideoCard {
+      .play-btn {
+        svg {
+          width: 50px;
+          height: 50px;
+        }
+        .bi-play-fill {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .work {
+    padding: 40px 20px;
+    &-video {
+      order: 2;
+    }
+    &-fq {
+      order: 1;
+    }
   }
 }
