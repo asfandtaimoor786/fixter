@@ -3,6 +3,7 @@
 .TsModal {
   padding: $section-padding;
   max-width: 1920px;
+  min-width: 350px;
   &-cont {
     //     width: 80%;
     max-width: 1800px;

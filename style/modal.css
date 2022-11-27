@@ -85,6 +85,7 @@
 .TsModal {
   padding: 72px;
   max-width: 1920px;
+  min-width: 350px;
 }
 
 .TsModal-cont {
