@@ -20,18 +20,36 @@ $text-white-color: #fff;
 $bg-primary-color: rgb(21, 102, 220);
 $bg-white-haf-color: rgb(246, 250, 255);
 $bg-white-color: #fff;
+$bg-white-blue-color: rgb(234, 243, 255);
+$bg-green-color: #eefaf6;
+
 // font size
+.bg-primary {
+  background-color: $bg-primary-color;
+}
+.bg-white-haf {
+  background-color: $bg-white-haf-color;
+}
+.bg-white {
+  background-color: $bg-white-color;
+}
+.bg-blue {
+  background-color: $bg-white-blue-color;
+}
+.bg-green {
+  background-color: $bg-green-color;
+}
 // heading
-$ts-heading-01: clamp(2.2rem, 3vw, 2.625rem);
-$ts-heading-02: clamp(2rem, 2.5vw, 2.375rem);
-$ts-heading-03: clamp(1.2rem, 2vw, 1.25rem);
-$ts-heading-04: clamp(2rem, 2vw, 2.13333rem);
-$ts-heading-05: clamp(0.8rem, 1vw, 0.9rem);
+$ts-heading-01: clamp(2.4rem, 4vw, 2.625rem);
+$ts-heading-02: clamp(2.2rem, 4vw, 2.375rem);
+$ts-heading-03: clamp(1.2rem, 3vw, 1.25rem);
+$ts-heading-04: clamp(2.1rem, 3vw, 2.13333rem);
+$ts-heading-05: clamp(0.8rem, 2vw, 0.9rem);
 
 // desc
-$ts-desc-01: clamp(2rem, 2vw, 2.13333rem);
-$ts-desc-02: clamp(1rem, 2vw, 1.4275rem);
-$ts-desc-03: clamp(1rem, 2vw, 1.125rem);
+$ts-desc-01: clamp(2.1rem, 3vw, 2.13333rem);
+$ts-desc-02: clamp(1.4rem, 3vw, 1.4275rem);
+$ts-desc-03: clamp(1.1rem, 2vw, 1.125rem);
 $ts-desc-04: clamp(0.9rem, 1vw, 1rem);
 
 // font weight

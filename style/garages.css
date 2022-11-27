@@ -102,37 +102,23 @@
   color: #fff;
 }
 
-.TsFooter {
-  border-top: 1px solid #dee6f0;
+.garages {
   padding: 72px;
-  background-color: #f6faff;
 }
 
-.TsFooter-container {
-  max-width: 1600px;
+.garages-cont {
+  max-width: 1440px;
 }
 
-.TsFooter-container-nav .nav-item {
-  margin-bottom: 8px;
+@media (max-width: 991px) {
+  .garages {
+    padding: 40px;
+  }
 }
 
-.TsFooter-container-nav .nav-item .nav-link {
-  font-size: 0.933333rem;
-  font-family: ProximaNova, sans-serif;
-  color: #4a5a6d;
-  line-height: 1.14;
+@media (max-width: 400px) {
+  .garages {
+    padding: 10px;
+  }
 }
-
-.TsFooter-container-nav .nav-item .nav-link:hover {
-  color: #1082ea;
-  text-decoration: underline;
-}
-
-.TsFooter-container-icon .fab {
-  color: #1566dc;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 100px;
-  border: 3px solid rgba(128, 128, 128, 0.401);
-}
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=garages.css.map */

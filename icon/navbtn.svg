@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon_hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile---Homepage---Above-the-fold-Axa-(UI)" transform="translate(-380.000000, -19.000000)">
+            <g id="menu">
+                <g id="icon_hamburger" transform="translate(380.000000, 19.000000)">
+                    <rect id="Rectangle" fill="#32383E" x="5" y="1" width="13" height="2" rx="1"></rect>
+                    <rect id="Rectangle" fill="#32383E" x="0" y="7" width="18" height="2" rx="1"></rect>
+                    <rect id="Rectangle" fill="#32383E" x="0" y="13" width="18" height="2" rx="1"></rect>
+                    <circle id="Oval" fill="#1082EA" cx="2" cy="2" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
