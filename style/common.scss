@@ -2,7 +2,9 @@
   font-family: 'ProximaNova', sans-serif;
   src: url('/ProximaNovaFont.otf');
 }
-
+body {
+  overflow: hidden;
+}
 //btn color
 $primary-btn-color: #1082ea;
 $primary-btn-border-color: rgb(32, 58, 82);
