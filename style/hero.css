@@ -1,5 +1,6 @@
 .offer {
   min-width: 350px;
+  margin-top: 68px;
 }
 
 .offer-left {
@@ -57,7 +58,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 40px;
+  padding: 20px;
   min-width: 350px;
 }
 
@@ -74,6 +75,10 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 40px;
+}
+
+.hero .FillCard-btn {
+  text-decoration: none;
 }
 
 .hero .input-div {
@@ -94,7 +99,7 @@
   background-color: #f0f2f4;
   border-radius: 5px;
   border: 0px;
-  padding: 10px 70px;
+  padding: 15px 70px;
 }
 
 .hero .input-div input[type='submit'] {

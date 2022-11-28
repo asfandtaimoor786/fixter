@@ -1,5 +1,6 @@
 .offer {
   min-width: 350px;
+  margin-top: 68px;
   &-left {
     padding: 8px 40px 8px 0px;
     background: radial-gradient(
@@ -108,7 +109,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 40px;
+  padding: 20px;
   min-width: 350px;
   &-cont {
     padding: 20px 90px;
@@ -121,6 +122,9 @@
     background-color: #fff;
     border-radius: 10px;
     padding: 40px;
+    &-btn {
+      text-decoration: none;
+    }
   }
   .input {
     &-div {
@@ -134,7 +138,7 @@
         background-color: rgba(240, 242, 244, 1);
         border-radius: 5px;
         border: 0px;
-        padding: 10px 70px;
+        padding: 15px 70px;
         &[type='submit'] {
           background-color: rgb(21, 102, 220);
         }

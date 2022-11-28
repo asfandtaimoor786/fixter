@@ -17,7 +17,15 @@ $text-black-haf-color: rgb(74, 90, 109);
 $text-link-color: rgb(16, 130, 234);
 $text-red-color: rgb(255, 88, 88);
 $text-white-color: #fff;
-
+.text-color-primary {
+  color: rgb(21, 102, 220);
+}
+.text-color-dark {
+  color: rgb(50, 56, 46);
+}
+.text-dark-primary-color {
+  color: rgb(32, 58, 82);
+}
 //  bg color
 $bg-primary-color: rgb(21, 102, 220);
 $bg-white-haf-color: rgb(246, 250, 255);
