@@ -119,6 +119,7 @@ body {
 }
 
 .TsServices {
+  min-width: 350px;
   padding: 72px;
   background-color: #f6faff;
 }
