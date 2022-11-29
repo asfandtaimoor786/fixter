@@ -80,4 +80,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+.fixter {
+  overflow: hidden;
+}
 /*# sourceMappingURL=fixter.css.map */
