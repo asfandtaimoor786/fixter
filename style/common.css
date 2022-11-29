@@ -3,10 +3,6 @@
   src: url("/ProximaNovaFont.otf");
 }
 
-body {
-  overflow: hidden;
-}
-
 .text-color-primary {
   color: #1566dc;
 }
