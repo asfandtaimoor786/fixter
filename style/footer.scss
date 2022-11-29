@@ -1,19 +1,23 @@
 @import 'common';
+
 .TsFooter {
+  min-width: 350px;
+
   border-top: 1px solid rgb(222, 230, 240);
   padding: $section-padding;
   background-color: $bg-white-haf-color;
   &-container {
     max-width: 1600px;
 
-    &-nav {
-      .nav-item {
+    .nav {
+      &-item {
         margin-bottom: 8px;
         .nav-link {
           font-size: 0.933333rem;
           font-family: $ts-font-family;
+          line-height: 1.4;
           color: $text-black-haf-color;
-          line-height: 1.14;
+          text-decoration: none;
           &:hover {
             color: #1082ea;
             text-decoration: underline;
@@ -21,12 +25,16 @@
         }
       }
     }
-    &-icon .fab {
-      color: rgb(21, 102, 220);
-      padding: 10px;
-      font-size: 20px;
-      border-radius: 100px;
-      border: 3px solid rgba(128, 128, 128, 0.401);
+  }
+  &-icon .fab {
+    color: gray;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.254);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    &:hover {
+      color: #1082ea;
     }
   }
 }
