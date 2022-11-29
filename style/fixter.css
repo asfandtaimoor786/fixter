@@ -3,6 +3,22 @@
   src: url("/ProximaNovaFont.otf");
 }
 
+body {
+  overflow: hidden;
+}
+
+.text-color-primary {
+  color: #1566dc;
+}
+
+.text-color-dark {
+  color: #32382e;
+}
+
+.text-dark-primary-color {
+  color: #203a52;
+}
+
 .bg-primary {
   background-color: #1566dc;
 }
@@ -111,5 +127,9 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.fixter {
+  overflow: hidden;
 }
 /*# sourceMappingURL=fixter.css.map */
