@@ -79,6 +79,16 @@
 
 .hero .FillCard-btn {
   text-decoration: none;
+  color: #4a5a6d;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-right: 15px;
+}
+
+.hero .FillCard-btn:hover {
+  margin-right: 30px;
+  text-decoration: underline;
+  color: #1566dc;
 }
 
 .hero .input-div {
@@ -142,7 +152,7 @@
   }
   .hero .FillCard {
     border-radius: 0px;
-    padding: 40px 20px 30px 20px;
+    padding: 70px 00px 0px 00px;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 100%, 0% 100%, 0 0, 48% 6%);
             clip-path: polygon(100% 0, 100% 100%, 51% 100%, 0% 100%, 0 0, 48% 6%);
     -webkit-transform: translateY(-50px);
