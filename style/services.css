@@ -101,4 +101,74 @@
   border-radius: 4px;
   color: #fff;
 }
-/*# sourceMappingURL=common.css.map */
+
+.TsServices {
+  min-width: 350px;
+  padding: 72px;
+  background-color: #f6faff;
+}
+
+.TsServices-header {
+  max-width: 1600px;
+}
+
+.TsServices-header h2 {
+  letter-spacing: 1px;
+}
+
+.TsServices-header .TsDesc-04 {
+  color: #1082ea;
+  font-weight: 700;
+}
+
+.TsServices-cont {
+  max-width: 1600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.TsServices-location, .TsServices-services {
+  border: 1px solid #dee6f0;
+  padding: 24px 24px;
+  border-radius: 5px;
+}
+
+.TsServices-link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.TsServices-link .nav-link {
+  padding: 5px 0px;
+  font-size: 0.933333rem;
+  font-family: ProximaNova, sans-serif;
+  color: #4a5a6d;
+  line-height: 1.87;
+}
+
+.TsServices-link .nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .TsServices-link {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .TsServices {
+    padding: 40px;
+  }
+  .TsServices-cont {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=services.css.map */

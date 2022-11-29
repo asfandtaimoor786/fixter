@@ -1,0 +1,52 @@
+.offer {
+  min-width: 350px;
+}
+
+.offer-left {
+  padding: 8px 40px 8px 0px;
+  background: radial-gradient(circle at 25px 15px, #fed200 3px, transparent 2px) 0% 0%/100% 76px, radial-gradient(circle at 120px 70px, white 4px, transparent 2px), radial-gradient(circle at 150px 20px, #fed200 2px, transparent 2px), radial-gradient(circle at 350px 62px, white 3px, transparent 2px), radial-gradient(circle at 600px 72px, white 3px, transparent 3px) #122334;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.offer-left h3 {
+  color: #fed200;
+}
+
+.offer-left .label {
+  width: 28px;
+  height: 48px;
+}
+
+.offer-right {
+  padding: 20px 0px 20px 90px;
+  background: radial-gradient(circle at 240px 15px, white 4px, transparent 2px) 0% 0%/100% 76px, radial-gradient(circle at 290px 71px, white 4px, transparent 2px), radial-gradient(circle at 340px 40px, white 3px, transparent 1px) #fed200;
+}
+
+.offer-right .description {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+@media (max-width: 992px) {
+  .offer-left {
+    padding: 10px 15px 10px 0px;
+  }
+  .offer-right {
+    padding: 15px 0px 15px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-left {
+    padding: 8px 10px 8px 0px;
+  }
+  .offer-right {
+    padding: 10px 0px 10px 30px;
+  }
+}
+/*# sourceMappingURL=hero.css.map */
