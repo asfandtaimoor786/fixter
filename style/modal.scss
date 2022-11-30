@@ -5,14 +5,12 @@
   max-width: 1920px;
   min-width: 350px;
   &-cont {
-    //     width: 80%;
     max-width: 1800px;
   }
   &-img {
     max-width: 450px;
   }
   &-cards {
-    width: 100%;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(6, 1fr);

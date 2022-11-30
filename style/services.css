@@ -82,80 +82,72 @@
   color: #fff;
 }
 
-.TsModal {
+.TsServices {
   padding: 72px;
-  max-width: 1920px;
-  min-width: 350px;
+  background-color: #f6faff;
 }
 
-.TsModal-cont {
-  max-width: 1800px;
+.TsServices-header {
+  max-width: 1600px;
 }
 
-.TsModal-img {
-  max-width: 450px;
+.TsServices-header h2 {
+  letter-spacing: 1px;
 }
 
-.TsModal-cards {
+.TsServices-header .TsDesc-04 {
+  color: #1082ea;
+  font-weight: 700;
+}
+
+.TsServices-cont {
+  max-width: 1600px;
   display: -ms-grid;
   display: grid;
-  grid-gap: 1rem;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
-.TsModal .card {
-  border: none;
-  padding-block: 50px;
-  text-align: center;
+.TsServices-location, .TsServices-services {
+  border: 1px solid #dee6f0;
+  padding: 24px 24px;
+  border-radius: 5px;
 }
 
-.TsModal .card p {
-  margin: 0px;
-  color: #4a5a6d;
-  font-size: clamp(1rem, 2vw, 1.125rem);
-  font-weight: 400;
-  line-height: 1.77778;
+.TsServices-link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.TsServices-link .nav-link {
+  padding: 5px 0px;
+  font-size: 0.933333rem;
   font-family: ProximaNova, sans-serif;
+  color: #4a5a6d;
+  line-height: 1.87;
 }
 
-.TsModal .card:hover {
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.401);
-          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.401);
-  cursor: pointer;
+.TsServices-link .nav-link:hover {
+  text-decoration: underline;
 }
 
-.TsModal-button .btn {
-  padding: 20px 15px;
-  color: #1082ea;
-  background-color: #1081ea0b;
-}
-
-.TsModal-button .btn .fas {
-  margin-left: 60px;
-}
-
-.TsModal-button .btn:hover {
-  background-color: #1082ea;
-  color: #fff;
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
-          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
-}
-
-@media (max-width: 767px) {
-  .TsModal {
-    padding: 50px;
-  }
-  .TsModal-cards {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-    grid-gap: 1rem;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
-  .TsModal-button .btn {
-    display: block;
+@media (max-width: 1200px) {
+  .TsServices-link {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
-/*# sourceMappingURL=modal.css.map */
+
+@media (max-width: 800px) {
+  .TsServices {
+    padding: 40px;
+  }
+  .TsServices-cont {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=services.css.map */

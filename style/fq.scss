@@ -1,0 +1,92 @@
+@import 'common';
+.fq {
+  max-width: 1920px;
+  min-width: 350px;
+  padding: $section-padding;
+  &-cont {
+    max-width: 1600px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  //   &-card {
+  //     border: 1px solid #000;
+  //   }
+  &-desc {
+    width: 80%;
+  }
+  #flush-collapseTow {
+    .accordion-body {
+      .fa-check-circle {
+        padding-top: 5px;
+        font-size: 24px;
+        color: rgb(21, 102, 220);
+      }
+    }
+  }
+}
+.accordion-last-btn {
+  background-color: #f0f2f4;
+  padding: 30px 40px;
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 1000px) {
+  .fq {
+    max-width: 1920px;
+    padding: 50px;
+    &-cont {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+// .accordion{
+//   &-header{
+//     &-last{
+
+//     }
+//   }
+// }
+.accordion-button {
+  &::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
+  &:not(.collapsed)::after {
+    content: '';
+    padding: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+    background-color: rgb(234, 243, 255);
+    padding: 10px;
+    border-radius: 100%;
+  }
+  &:not(.collapsed) {
+    background-color: transparent;
+  }
+  &:focus {
+    z-index: 0;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.accordion-header:hover .accordion-button::after {
+  color: red;
+  padding: 10px;
+  border-radius: 100px;
+  // background-color: red;
+  background-color: rgb(234, 243, 255);
+}
+@media (max-width: 600px) {
+  .fq {
+    padding: 20px 10px;
+  }
+}
