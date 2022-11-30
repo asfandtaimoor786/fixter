@@ -1,0 +1,162 @@
+.offer {
+  min-width: 350px;
+  margin-top: 68px;
+}
+
+.offer-left {
+  padding: 8px 40px 8px 0px;
+  background: radial-gradient(circle at 25px 15px, #fed200 3px, transparent 2px) 0% 0%/100% 76px, radial-gradient(circle at 120px 70px, white 4px, transparent 2px), radial-gradient(circle at 150px 20px, #fed200 2px, transparent 2px), radial-gradient(circle at 350px 62px, white 3px, transparent 2px), radial-gradient(circle at 600px 72px, white 3px, transparent 3px) #122334;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.offer-left h3 {
+  color: #fed200;
+}
+
+.offer-left .label {
+  width: 28px;
+  height: 48px;
+}
+
+.offer-right {
+  padding: 20px 0px 20px 90px;
+  background: radial-gradient(circle at 240px 15px, white 4px, transparent 2px) 0% 0%/100% 76px, radial-gradient(circle at 290px 71px, white 4px, transparent 2px), radial-gradient(circle at 340px 40px, white 3px, transparent 1px) #fed200;
+}
+
+.offer-right .description {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+@media (max-width: 992px) {
+  .offer-left {
+    padding: 10px 15px 10px 0px;
+  }
+  .offer-right {
+    padding: 15px 0px 15px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-left {
+    padding: 8px 10px 8px 0px;
+  }
+  .offer-right {
+    padding: 10px 0px 10px 30px;
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_3840,q_auto/v1668421119/contentful/hero/Customers%20V2/D_UK_Blue_uy1qss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  min-width: 350px;
+}
+
+.hero-cont {
+  padding: 20px 90px;
+  max-width: 1440px;
+}
+
+.hero-mbimg {
+  display: none;
+}
+
+.hero .FillCard {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.hero .FillCard-btn {
+  text-decoration: none;
+  color: #4a5a6d;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-right: 15px;
+}
+
+.hero .FillCard-btn:hover {
+  margin-right: 30px;
+  text-decoration: underline;
+  color: #1566dc;
+}
+
+.hero .input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero .input-div input {
+  background-color: #f0f2f4;
+  border-radius: 5px;
+  border: 0px;
+  padding: 15px 70px;
+}
+
+.hero .input-div input[type='submit'] {
+  background-color: #1566dc;
+}
+
+.hero .input-div .icon {
+  position: absolute;
+  left: 8%;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 20px;
+  }
+  .hero-cont {
+    padding: 20px 30px;
+  }
+  .hero .FillCard {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: none;
+    padding: 0px;
+  }
+  .hero-cont {
+    padding: 0px;
+    max-width: 1440px;
+  }
+  .hero-mbimg {
+    background-image: url(https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1668421120/contentful/hero/Customers%20V2/M_UK_Blue_l5gy4n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+    display: block;
+  }
+  .hero .FillCard {
+    border-radius: 0px;
+    padding: 70px 00px 0px 00px;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 100%, 0% 100%, 0 0, 48% 6%);
+            clip-path: polygon(100% 0, 100% 100%, 51% 100%, 0% 100%, 0 0, 48% 6%);
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+/*# sourceMappingURL=hero.css.map */

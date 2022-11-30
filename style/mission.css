@@ -3,6 +3,10 @@
   src: url("/ProximaNovaFont.otf");
 }
 
+body {
+  overflow: hidden;
+}
+
 .text-color-primary {
   color: #1566dc;
 }
@@ -113,4 +117,34 @@
   border-radius: 4px;
   color: #fff;
 }
-/*# sourceMappingURL=common.css.map */
+
+.mission {
+  padding: 72px;
+}
+
+.mission-cont {
+  max-width: 1440px;
+}
+
+@media (max-width: 991px) {
+  .mission {
+    padding: 40px;
+  }
+  .mission-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .mission-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .mission {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=mission.css.map */

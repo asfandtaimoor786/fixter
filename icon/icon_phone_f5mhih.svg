@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon_phone</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile---Homepage---Above-the-fold-Axa-(UI)" transform="translate(-16.000000, -17.000000)">
+            <g id="menu">
+                <g id="icon_phone" transform="translate(16.000000, 17.000000)">
+                    <rect id="Rectangle" stroke="#32383E" stroke-width="2" x="1" y="1" width="13" height="18" rx="3"></rect>
+                    <circle id="Oval" stroke="#32383E" cx="7.5" cy="15.5" r="1"></circle>
+                    <rect id="Rectangle" fill="#1082EA" x="6" y="3" width="3" height="1" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
