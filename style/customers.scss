@@ -1,0 +1,21 @@
+@import 'common';
+.customers {
+  max-width: 1920px;
+  min-width: 350px;
+  padding: 70px 20px;
+  &-cont {
+    max-width: 1600px;
+    .swiper {
+      &-slide {
+        padding: 0px;
+        h3 {
+          line-height: 1.2;
+        }
+        &-img {
+          border-radius: 10px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
