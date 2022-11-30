@@ -1,6 +1,7 @@
 @import 'common';
 .fq {
   max-width: 1920px;
+  min-width: 350px;
   padding: $section-padding;
   &-cont {
     max-width: 1600px;
@@ -83,4 +84,9 @@
   border-radius: 100px;
   // background-color: red;
   background-color: rgb(234, 243, 255);
+}
+@media (max-width: 600px) {
+  .fq {
+    padding: 20px 10px;
+  }
 }
