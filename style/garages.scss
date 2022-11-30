@@ -1,7 +1,7 @@
 @import 'common';
 .garages {
-  padding: $section-padding;
-  min-width: 350px;
+  padding: $section-padding; 
+  min-width: 350px; 
   &-cont {
     max-width: 1440px;
   }
@@ -15,14 +15,4 @@
   .garages {
     padding: 10px;
   }
-}
-// @media (max-width: 700px) {
-//   .garages {
-//     padding: 30px;
-//   }
-// }
-// @media (max-width: 500px) {
-//   .mission {
-//     padding: 10px;
-//   }
-// }
+}   
