@@ -1,6 +1,7 @@
 @import 'common';
 .garages {
-  padding: $section-padding;
+  padding: $section-padding; 
+  min-width: 350px; 
   &-cont {
     max-width: 1440px;
   }
@@ -14,4 +15,4 @@
   .garages {
     padding: 10px;
   }
-}
+}   

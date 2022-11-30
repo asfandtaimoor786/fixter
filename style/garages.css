@@ -2,7 +2,7 @@
   font-family: 'ProximaNova', sans-serif;
   src: url("/ProximaNovaFont.otf");
 }
-
+ 
 .TsHeading-01, .TsHeading-02, .TsHeading-03 {
   color: #203a52;
   word-break: break-word;
@@ -10,20 +10,20 @@
   color: #203a52;
 }
 
-.TsHeading-01 {
-  font-size: clamp(2.2rem, 3vw, 2.625rem);
+.TsHeading-01 {  
+  font-size: clamp(2.4rem, 4vw, 2.625rem);
   line-height: 1.04762;
   font-weight: 600;
 }
 
 .TsHeading-02 {
-  font-weight: 700;
-  font-size: clamp(2.3rem, 3vw, 2.375rem);
+  font-weight: 700;  
+  font-size: clamp(2.2rem, 4vw, 2.375rem); 
   line-height: 1.05263;
 }
 
-.TsHeading-03 {
-  font-size: clamp(1.2rem, 2vw, 1.25rem);
+.TsHeading-03 { 
+  font-size: clamp(1.2rem, 3vw, 1.25rem); 
   font-weight: 600;
 }
 
@@ -31,16 +31,16 @@
   line-height: 1.25;
   font-weight: 200;
   color: #32382e;
-  font-family: ProximaNova, sans-serif;
-  font-size: clamp(2rem, 2vw, 2.13333rem);
+  font-family: ProximaNova, sans-serif; 
+  font-size: clamp(2.1rem, 3vw, 2.13333rem); 
 }
 
 .TsHeading-05 {
   line-height: 1.23;
   font-weight: 700;
   color: #32382e;
-  font-family: ProximaNova, sans-serif;
-  font-size: clamp(0.8rem, 1vw, 0.9rem);
+  font-family: ProximaNova, sans-serif; 
+  font-size: clamp(0.8rem, 2vw, 0.9rem); 
 }
 
 .TsHeading-06 {
@@ -48,16 +48,16 @@
 }
 
 .TsDesc-02 {
-  color: #4a5a6d;
-  font-size: clamp(1rem, 2vw, 1.4275rem);
+  color: #4a5a6d; 
+  font-size: clamp(1 
   font-weight: 400;
   line-height: 1.21739;
   font-family: ProximaNova, sans-serif;
 }
 
 .TsDesc-03 {
-  color: #4a5a6d;
-  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: #4a5a6d ;
+  font-size: clamp(1.1rem, 2vw, 1.125rem); 
   font-weight: 400;
   line-height: 1.77778;
   font-family: ProximaNova, sans-serif;
@@ -83,7 +83,8 @@
 }
 
 .garages {
-  padding: 72px;
+  padding: 72px; 
+  min-width: 350px; 
 }
 
 .garages-cont {

@@ -4,27 +4,21 @@
   min-width: 350px;
   &-cont {
     max-width: 1440px;
-    display: grid;
-    grid-column-gap: 8rem;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .mission {
-    &-cont {
-      max-width: 1440px;
-      display: grid;
-      grid-gap: 2rem;
-      grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
+
+    &-content {
+      order: 2;
+    }
+    &-img {
+      order: 1;
     }
   }
 }
-@media (max-width: 700px) {
-  .mission {
-    padding: 30px;
-  }
-}
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .mission {
     padding: 10px;
   }

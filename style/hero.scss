@@ -1,0 +1,196 @@
+.offer {
+  min-width: 350px;
+  margin-top: 68px;
+  &-left {
+    padding: 8px 40px 8px 0px;
+    background: radial-gradient(
+          circle at 25px 15px,
+          rgb(254, 210, 0) 3px,
+          transparent 2px
+        )
+        0% 0% / 100% 76px,
+      radial-gradient(
+        circle at 120px 70px,
+        rgb(255, 255, 255) 4px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 150px 20px,
+        rgb(254, 210, 0) 2px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 350px 62px,
+        rgb(255, 255, 255) 3px,
+        transparent 2px
+      ),
+      radial-gradient(
+          circle at 600px 72px,
+          rgb(255, 255, 255) 3px,
+          transparent 3px
+        )
+        rgb(18, 35, 52);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    h3 {
+      color: rgb(254, 210, 0);
+    }
+    //     &::after {
+    //       content: '';
+    //       position: absolute;
+    //       right: -1%;
+    //       top: 70%;
+    //       width: 0%;
+    //       height: 0%;
+    //       border-top: 51px solid transparent;
+    //       border-bottom: 51px solid transparent;
+    //       border-left: 30px solid rgb(18, 35, 52);
+    //       border-image: initial;
+    //       border-right: 40px;
+    //       margin-top: -75px;
+    //       margin-right: -20px;
+    //       z-index: 5;
+    //     }
+    .label {
+      width: 28px;
+      height: 48px;
+    }
+  }
+  &-right {
+    padding: 20px 0px 20px 90px;
+    background: radial-gradient(
+          circle at 240px 15px,
+          rgb(255, 255, 255) 4px,
+          transparent 2px
+        )
+        0% 0% / 100% 76px,
+      radial-gradient(
+        circle at 290px 71px,
+        rgb(255, 255, 255) 4px,
+        transparent 2px
+      ),
+      radial-gradient(
+          circle at 340px 40px,
+          rgb(255, 255, 255) 3px,
+          transparent 1px
+        )
+        rgb(254, 210, 0);
+    .description {
+      font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+  }
+}
+@media (max-width: 992px) {
+  .offer {
+    &-left {
+      padding: 10px 15px 10px 0px;
+    }
+    &-right {
+      padding: 15px 0px 15px 60px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .offer {
+    &-left {
+      padding: 8px 10px 8px 0px;
+    }
+    &-right {
+      padding: 10px 0px 10px 30px;
+    }
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_3840,q_auto/v1668421119/contentful/hero/Customers%20V2/D_UK_Blue_uy1qss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  min-width: 350px;
+  &-cont {
+    padding: 20px 90px;
+    max-width: 1440px;
+  }
+  &-mbimg {
+    display: none;
+  }
+  .FillCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    &-btn {
+      text-decoration: none;
+      color: #4a5a6d;
+      transition: all 0.5s;
+      margin-right: 15px;
+      &:hover {
+        margin-right: 30px;
+        text-decoration: underline;
+        color: rgb(21, 102, 220);
+      }
+    }
+  }
+  .input {
+    &-div {
+      // border: 1px solid red;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      margin-bottom: 20px;
+      position: relative;
+      input {
+        background-color: rgba(240, 242, 244, 1);
+        border-radius: 5px;
+        border: 0px;
+        padding: 15px 70px;
+        &[type='submit'] {
+          background-color: rgb(21, 102, 220);
+        }
+      }
+      .icon {
+        position: absolute;
+        left: 8%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 20px;
+    &-cont {
+      padding: 20px 30px;
+    }
+    .FillCard {
+      padding: 30px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    background-image: none;
+    padding: 0px;
+    &-cont {
+      padding: 0px;
+      max-width: 1440px;
+    }
+    &-mbimg {
+      background-image: url(https://res.cloudinary.com/fxtr/image/upload/f_auto,c_limit,w_1920,q_auto/v1668421120/contentful/hero/Customers%20V2/M_UK_Blue_l5gy4n.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 90px;
+      display: block;
+    }
+    .FillCard {
+      border-radius: 0px;
+      padding: 70px 00px 0px 00px;
+      clip-path: polygon(100% 0, 100% 100%, 51% 100%, 0% 100%, 0 0, 48% 6%);
+      transform: translateY(-50px);
+    }
+  }
+}

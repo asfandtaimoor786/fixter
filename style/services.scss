@@ -1,5 +1,6 @@
 @import 'common';
 .TsServices {
+  min-width: 350px;
   padding: $section-padding;
   background-color: $bg-white-haf-color;
   &-header {
