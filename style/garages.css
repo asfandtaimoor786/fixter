@@ -3,6 +3,10 @@
   src: url("/ProximaNovaFont.otf");
 }
 
+body {
+  overflow: hidden;
+}
+
 .text-color-primary {
   color: #1566dc;
 }
@@ -113,4 +117,24 @@
   border-radius: 4px;
   color: #fff;
 }
-/*# sourceMappingURL=common.css.map */
+
+.garages {
+  padding: 72px;
+}
+
+.garages-cont {
+  max-width: 1440px;
+}
+
+@media (max-width: 991px) {
+  .garages {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .garages {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=garages.css.map */
